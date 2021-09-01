@@ -1,12 +1,12 @@
 {
-    "name": "agiledrop/laravel-telnyx",
+    "name": "thefunctionaryorganization/laravel-telnyx",
     "description": "Telnyx SMS service Notification Channel for Laravel.",
     "keywords": [
         "laravel",
         "notifications",
         "telnyx"
     ],
-    "homepage": "https://github.com/agiledrop/laravel-telnyx",
+    "homepage": "https://github.com/thefunctionaryorganization/laravel-telnyx/",
     "license": "MIT",
     "authors": [
         {
