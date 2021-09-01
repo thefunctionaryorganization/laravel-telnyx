@@ -27,10 +27,9 @@ class SmsChannel extends BaseChannel
         $message = $notification->toTelnyx($notifiable);
 
         Telnyx::setApiKey(config('laravel-telnyx.api_key'));
-
+        
         return Message::Create([
             "messaging_profile_id" => $this->profileId,
-            'from' => $message->from ?: $this->from,
             'to' => $to,
             'text' => trim($message->content),
         ]);
